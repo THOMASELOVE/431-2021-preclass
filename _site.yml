@@ -1,0 +1,27 @@
+name: 431 Pre-Class
+navbar:
+  title: "431 Pre-Class"
+  left:
+    - text: Home
+      href: index.html
+    - text: About 431-432
+      href: course.html
+    - text: Books
+      href: books.html
+    - text: Software
+      href: software.html
+    - text: Enrolling
+      href: enroll.html
+    - text: Questions & Answers
+      href: questions.html
+  right:
+    - text: "About Dr. Love"
+      href: about.html
+output:
+  html_document:
+    theme: readable
+    highlight: haddock
+    includes:
+      after_body: footer.html
+    lib_dir: site_libs
+    self_contained: no

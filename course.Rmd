@@ -1,0 +1,77 @@
+---
+title: "The 431-432 Course Sequence"
+---
+
+431 is the first in a two-semester course sequence, and most students taking 431 in Fall will take 432 in the following Spring. During the 431-432 sequence, students will:
+
+1. Use modern data science tools to import, tidy/manage, explore (through transformation, visualization and modeling) and communicate about data.
+2. Think hard and well about design and analysis in scientific research.
+3. Gain sufficient background in the practical issues regarding linear and generalized linear models to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
+4. Learn about the importance of replicable research, and develop facility and practice in open source tools for doing it.
+5. Complete a series of assignments designed to help you demonstrate what you've learned. 
+6. Program ("Code") in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help. What separates "doing data science" from "doing data analysis" is programming.
+
+### Key Topics in 431 and 432
+
+This is **NOT** a course in mathematical statistics or statistical inference. It's far more applied than that.
+
+1. Exploratory Data Analysis: "All graphs are comparisons" including data exploration, statistical graphics and more general visualization of information.
+2. Placing biological, medical and health research questions into a statistical framework.
+3. Study Development - making choices in designing and executing the collection and aggregation of data.
+4. Data Handling - including important issues in importing, tidying and transforming data, as well as methods for dealing with missing data, including imputation.
+5. Statistical Comparisons: "All of statistics are comparisons" - including methods for discrete and continuous variables: intervals, assumptions, some thoughts on statistical power, and the bootstrap, design of visualizations and models for rates, proportions and contingency tables.
+6. The proper use of multi-predictor models for continuous and discrete data, including...
+    - Fitting, evaluating, and interpreting linear and generalized linear models.
+    - Prediction and validation.
+    - Critical role of graphics, including diagnostics and residual analysis.
+    - Model choice, including variable selection, shrinkage and model uncertainty.
+    - Dealing with categorical predictors and interactions meaningfully.
+    - Causal inference using regression: controlling for covariates meaningfully.
+7. Using R and RStudio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.
+
+### What We Expect You To Know Already
+
+Not much.
+
+Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few will have all three.
+
+- Some students have lots of prior training in statistics. But there are many students in the class with no statistical training at all that they use regularly. We assume only that everyone knows what an average is, and has some sense of why statistics might be useful to them in their chosen field.  
+- Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life.  We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.
+- Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.
+
+People succeed in this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class. We expect the majority of students will have no prior experience using R, or any meaningful recollection of using statistical software. 
+
+The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
+
+### R and RStudio
+
+(much of this discussion is borrowed from [Andrew Heiss](https://evalf19.classes.andrewheiss.com/syllabus/))
+
+You will do all of your analysis with the open source (and free!) [programming language R](https://cloud.r-project.org). You will use [RStudio](https://www.rstudio.com/) as the main program to access R. Think of R as an engine and RStudio as a car dashboard. R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
+
+R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found on the [Software page](software.html)
+
+Learning R can be difficult at first - it's like learning a new language, just like Spanish, French, or Chinese. Hadley Wickham-the chief scientist at RStudio and the author of some amazing R packages you'll be using like `ggplot2` [made this wise observation](https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/):
+
+> It's easy when you start out programming to get really frustrated and think, "Oh it's me, I'm really stupid," or, "I'm not made out to program." But, that is absolutely not the case. Everyone gets frustrated. I still get frustrated occasionally when writing R code. It's just a natural part of programming. So, it happens to everyone and gets less and less over time. Don't blame yourself. Just take a break, do something fun, and then come back and try again later.
+
+If you're finding yourself taking way too long hitting your head against a wall and not understanding, take a break, talk to the teaching assistants, talk to classmates, ask questions, e-mail Dr. Love, etc.
+
+I promise you can do this.
+
+### (Draft) Calendar for Fall 2021
+
+Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect classes will be held on nearly all of the 27 dates listed below. A final schedule should be available by the first class session on August 24. 
+
+- August 2021: 24, 26, 31
+- September 2021: 2, 7, 9, 14, 16, 21, 23, 28, 30
+- October 2021: 5, 7, 12, 14, 21, 26, 28
+- November 2021: 2, 4, 9, 11, 16, 18, 30
+- December 2021: 2
+
+Note that 431 will not be held on 2021-10-19 or 2021-10-21 (CWRU fall break, and Dr. Love at AHRQ study section) or during Thanksgiving Week (2021-11-23 or 2021-11-25), even though other CWRU classes may meet on some of those dates. 
+
+All work for 431 (including the final exam and all final project materials) will be completed by noon on Monday 2021-12-13. We anticipate student final project presentations will take place on 2021-12-06, 2021-12-07 and 2021-12-09, with a detailed schedule made available in early November. Students should anticipate remaining in Northeast Ohio through 2021-12-09 for 431.
+
+
+

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Questions (and Answers) About 431-432</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">431 Pre-Class</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="course.html">About 431-432</a>
+</li>
+<li>
+  <a href="books.html">Books</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="enroll.html">Enrolling</a>
+</li>
+<li>
+  <a href="questions.html">Questions &amp; Answers</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About Dr. Love</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Questions (and Answers) About 431-432</h1>
+
+</div>
+
+
+<div id="how-do-i-get-help" class="section level2">
+<h2>How do I get help?</h2>
+<p>Before the class begins, contact Dr. Love at the email address on the bottom of this page with any questions.</p>
+<ul>
+<li>Our first class is August 23. At that class, we’ll describe all of the ways we have for you to get help during the semester.</li>
+</ul>
+<div id="do-i-have-to-be-in-cleveland-to-take-this-course" class="section level3">
+<h3>Do I have to be in Cleveland to take this course?</h3>
+<p>Yes. 431 is an in-class experience. You will need to be in Room E321-323 in the Robbins Building of the CWRU School of Medicine on Tuesdays and Thursdays from 1:00 to 2:15 PM to take the course. We will comply, of course, with all University requirements.</p>
+</div>
+<div id="will-all-class-materials-be-available-to-me-online" class="section level3">
+<h3>Will all class materials be available to me online?</h3>
+<p>No, but many things will be available. All slides and many other materials will be provided after each class, but in-class attendance is required.</p>
+</div>
+<div id="will-the-class-have-teaching-assistants-and-office-hours" class="section level3">
+<h3>Will the class have teaching assistants and office hours?</h3>
+<p>Yes, it will. Most of this Fall’s TAs are students who took this course one or two years ago. Some are volunteering their time to help you understand this stuff better. All office hours and all teaching assistant work will be done remotely.</p>
+</div>
+<div id="how-do-i-get-connected-to-zoom-through-cwru" class="section level3">
+<h3>How do I get connected to Zoom through CWRU?</h3>
+<p>By now, you’re probably familiar with Zoom. You should review <a href="https://case.edu/utech/help/knowledge-base/zoom/zoom-information">the CWRU Knowledge Base for Zoom</a> prior to our first class to set up a CWRU Zoom account. The course sessions will not be delivered on Zoom, but office hours and some other activities will use Zoom.</p>
+</div>
+<div id="what-if-i-get-sick-or-have-to-care-for-someone-who-is-sick-once-the-semester-starts" class="section level3">
+<h3>What if I get sick, or have to care for someone who is sick once the semester starts?</h3>
+<p>In general, we ask students to contact Dr. Love directly (method will be specified at the first class) when you encounter any problem which will keep you from participating in the course for <strong>more than two sessions in a row</strong> to figure out what sort of accommodations will be needed.</p>
+</div>
+<div id="can-i-audit-431-or-432" class="section level3">
+<h3>Can I audit 431 or 432?</h3>
+<p>No. Enrolled students and teaching assistants are the only people permitted to attend the course.</p>
+</div>
+<div id="is-it-possible-to-take-the-course-passfail" class="section level3">
+<h3>Is it possible to take the course pass/fail?</h3>
+<p>No, it is not. However, no student in the past five years has received a final course grade other than A, B or Incomplete.</p>
+</div>
+<div id="how-will-i-know-how-im-doing-in-the-class" class="section level3">
+<h3>How will I know how I’m doing in the class?</h3>
+<p>We aim for substantial and timely feedback from the teaching assistants and myself on all elements of the course.</p>
+</div>
+<div id="if-i-take-431-do-i-have-to-also-take-432-in-the-spring" class="section level3">
+<h3>If I take 431, do I have to also take 432 in the Spring?</h3>
+<p>It is the natural thing to do. The 431 course is part 1 of a two-semester sequence. Frankly, 432 contains some of the most interesting material and is generally regarded by students who take both as the more entertaining course. Every year, some students take only 431, though. The decision is up to you. The 432 course assumes you have completed 431.</p>
+</div>
+<div id="what-should-i-be-doing-before-class-to-get-ready" class="section level3">
+<h3>What should I be doing before class to get ready?</h3>
+<p>Take a look at the list <a href="index.html">we’ve provided here</a>, and also try to get some rest. It will be a busy semester.</p>
+</div>
+<div id="more-to-come" class="section level3">
+<h3>More to come…</h3>
+<p>More questions (and answers) will appear here as needed in response to student emails sent to the address below, and in response to your comments on the <a href="https://bit.ly/431-2021-welcome-survey">Welcome to 431 Survey</a>.</p>
+</div>
+</div>
+
+<p style = "color:#6B33FF; font-size:16px">
+Questions? Email Dr. Love at <b>Thomas dot Love at case dot edu</b>.
+</p>
+<p><img alt="CWRU Logo" style="border-width:0" src="cwru_logo.jpg" height="120" width ="240"/></a>
+</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

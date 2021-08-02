@@ -1,0 +1,46 @@
+---
+title: "Pre-Class Website for 431 in Fall 2021"
+---
+
+## Welcome! 
+
+431 is the first part of a two-semester sequence (431-432) taught by [Professor Thomas E. Love](about.html) in the [Department of Population and Quantitative Health Sciences](https://case.edu/medicine/pqhs/) at [Case Western Reserve University](https://case.edu/). 
+
+### Our First Class
+
+This pre-class web site shares information and instructions we want to get to you before our first class meeting on **Tuesday 2021-08-24 at 1:00 PM** in room E321 of the Robbins Building at CWRU's School of Medicine. 
+
+Until further notice, we plan for the course to be held in person, rather than online, but we will review this decision again in mid-August. Of course, we will comply with all recommendations and requirements of the University, which may change at any time.
+
+### What Should I Do Before Class Starts?
+
+Your first step is to register and enroll for the class. Click [Enrolling](enroll.html) in the top menu for details.
+
+Once you're enrolled, we'd like you to:
+
+1. Fill out the [Welcome to 431 Survey](https://bit.ly/431-2021-welcome-survey) at https://bit.ly/431-2021-welcome-survey.
+    - Note that you must **log into Google via your CWRU account** in order to access the survey.
+    - The survey should take 15-20 minutes, and please complete it well before class begins, if possible.
+2. Visit the [About 431-432 page](course.html) to learn a little more about the course objectives, and plans for the semester.
+3. Visit [the Books page](books.html) to learn about the books you'll need to purchase.
+4. Visit [the Software page](software.html) to obtain and install the software we'll use. 
+5. Review the [Questions (and Answers) page](questions.html), where we'll try to answer most of your questions before class begins.
+6. Watch your CWRU email from now through August 24 for further bulletins.
+
+### Getting Help Before Class Begins
+
+Contact Dr. Love at the email below with any questions.
+
+### This Pre-Class Site is Temporary.
+
+At the first class session, we'll unveil the (more extensive) main course site to all enrolled students, and that main site replace this pre-class site. When it goes live, the main site will include:
+
+- The complete 431 Syllabus
+- Materials for each class, including presentation slides, notes, and announcements.
+- Pages describing all Assignments and Deliverables
+- Data (and Code) for the course's assignments, presentations, and notes
+- Additional Readings and other Supplemental Materials
+- Information on our Teaching Assistants and how you can get help during the semester.
+
+## We look forward to meeting you in late August!
+

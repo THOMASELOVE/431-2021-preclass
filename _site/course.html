@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>The 431-432 Course Sequence</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">431 Pre-Class</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="course.html">About 431-432</a>
+</li>
+<li>
+  <a href="books.html">Books</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="enroll.html">Enrolling</a>
+</li>
+<li>
+  <a href="questions.html">Questions &amp; Answers</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About Dr. Love</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">The 431-432 Course Sequence</h1>
+
+</div>
+
+
+<p>431 is the first in a two-semester course sequence, and most students taking 431 in Fall will take 432 in the following Spring. During the 431-432 sequence, students will:</p>
+<ol style="list-style-type: decimal">
+<li>Use modern data science tools to import, tidy/manage, explore (through transformation, visualization and modeling) and communicate about data.</li>
+<li>Think hard and well about design and analysis in scientific research.</li>
+<li>Gain sufficient background in the practical issues regarding linear and generalized linear models to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)</li>
+<li>Learn about the importance of replicable research, and develop facility and practice in open source tools for doing it.</li>
+<li>Complete a series of assignments designed to help you demonstrate what you’ve learned.</li>
+<li>Program (“Code”) in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help. What separates “doing data science” from “doing data analysis” is programming.</li>
+</ol>
+<div id="key-topics-in-431-and-432" class="section level3">
+<h3>Key Topics in 431 and 432</h3>
+<p>This is <strong>NOT</strong> a course in mathematical statistics or statistical inference. It’s far more applied than that.</p>
+<ol style="list-style-type: decimal">
+<li>Exploratory Data Analysis: “All graphs are comparisons” including data exploration, statistical graphics and more general visualization of information.</li>
+<li>Placing biological, medical and health research questions into a statistical framework.</li>
+<li>Study Development - making choices in designing and executing the collection and aggregation of data.</li>
+<li>Data Handling - including important issues in importing, tidying and transforming data, as well as methods for dealing with missing data, including imputation.</li>
+<li>Statistical Comparisons: “All of statistics are comparisons” - including methods for discrete and continuous variables: intervals, assumptions, some thoughts on statistical power, and the bootstrap, design of visualizations and models for rates, proportions and contingency tables.</li>
+<li>The proper use of multi-predictor models for continuous and discrete data, including…
+<ul>
+<li>Fitting, evaluating, and interpreting linear and generalized linear models.</li>
+<li>Prediction and validation.</li>
+<li>Critical role of graphics, including diagnostics and residual analysis.</li>
+<li>Model choice, including variable selection, shrinkage and model uncertainty.</li>
+<li>Dealing with categorical predictors and interactions meaningfully.</li>
+<li>Causal inference using regression: controlling for covariates meaningfully.</li>
+</ul></li>
+<li>Using R and RStudio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.</li>
+</ol>
+</div>
+<div id="what-we-expect-you-to-know-already" class="section level3">
+<h3>What We Expect You To Know Already</h3>
+<p>Not much.</p>
+<p>Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few will have all three.</p>
+<ul>
+<li>Some students have lots of prior training in statistics. But there are many students in the class with no statistical training at all that they use regularly. We assume only that everyone knows what an average is, and has some sense of why statistics might be useful to them in their chosen field.<br />
+</li>
+<li>Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life. We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.</li>
+<li>Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.</li>
+</ul>
+<p>People succeed in this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class. We expect the majority of students will have no prior experience using R, or any meaningful recollection of using statistical software.</p>
+<p>The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.</p>
+</div>
+<div id="r-and-rstudio" class="section level3">
+<h3>R and RStudio</h3>
+<p>(much of this discussion is borrowed from <a href="https://evalf19.classes.andrewheiss.com/syllabus/">Andrew Heiss</a>)</p>
+<p>You will do all of your analysis with the open source (and free!) <a href="https://cloud.r-project.org">programming language R</a>. You will use <a href="https://www.rstudio.com/">RStudio</a> as the main program to access R. Think of R as an engine and RStudio as a car dashboard. R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.</p>
+<p>R is free, but it can sometimes be a pain to install and configure. Information about getting R and RStudio on your computer will be found on the <a href="software.html">Software page</a></p>
+<p>Learning R can be difficult at first - it’s like learning a new language, just like Spanish, French, or Chinese. Hadley Wickham-the chief scientist at RStudio and the author of some amazing R packages you’ll be using like <code>ggplot2</code> <a href="https://r-posts.com/advice-to-young-and-old-programmers-a-conversation-with-hadley-wickham/">made this wise observation</a>:</p>
+<blockquote>
+<p>It’s easy when you start out programming to get really frustrated and think, “Oh it’s me, I’m really stupid,” or, “I’m not made out to program.” But, that is absolutely not the case. Everyone gets frustrated. I still get frustrated occasionally when writing R code. It’s just a natural part of programming. So, it happens to everyone and gets less and less over time. Don’t blame yourself. Just take a break, do something fun, and then come back and try again later.</p>
+</blockquote>
+<p>If you’re finding yourself taking way too long hitting your head against a wall and not understanding, take a break, talk to the teaching assistants, talk to classmates, ask questions, e-mail Dr. Love, etc.</p>
+<p>I promise you can do this.</p>
+</div>
+<div id="draft-calendar-for-fall-2021" class="section level3">
+<h3>(Draft) Calendar for Fall 2021</h3>
+<p>Scheduled class sessions are on Tuesdays and Thursdays from 1:00 to 2:15 PM Eastern time. I expect classes will be held on nearly all of the 27 dates listed below. A final schedule should be available by the first class session on August 24.</p>
+<ul>
+<li>August 2021: 24, 26, 31</li>
+<li>September 2021: 2, 7, 9, 14, 16, 21, 23, 28, 30</li>
+<li>October 2021: 5, 7, 12, 14, 21, 26, 28</li>
+<li>November 2021: 2, 4, 9, 11, 16, 18, 30</li>
+<li>December 2021: 2</li>
+</ul>
+<p>Note that 431 will not be held on 2021-10-19 or 2021-10-21 (CWRU fall break, and Dr. Love at AHRQ study section) or during Thanksgiving Week (2021-11-23 or 2021-11-25), even though other CWRU classes may meet on some of those dates.</p>
+<p>All work for 431 (including the final exam and all final project materials) will be completed by noon on Monday 2021-12-13. We anticipate student final project presentations will take place on 2021-12-06, 2021-12-07 and 2021-12-09, with a detailed schedule made available in early November. Students should anticipate remaining in Northeast Ohio through 2021-12-09 for 431.</p>
+</div>
+
+<p style = "color:#6B33FF; font-size:16px">
+Questions? Email Dr. Love at <b>Thomas dot Love at case dot edu</b>.
+</p>
+<p><img alt="CWRU Logo" style="border-width:0" src="cwru_logo.jpg" height="120" width ="240"/></a>
+</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
