@@ -13,7 +13,7 @@ These package instructions should be used after you've followed [these instructi
             "Hmisc", "janitor", "kableExtra", "knitr", "magrittr", 
             "markdown", "modelsummary", "mosaic", "naniar", "NHANES", 
             "palmerpenguins", "patchwork", "psych", "rmarkdown", "rms", 
-            "rstanarm", "sessioninfo", tableone", "tidymodels", "tidyverse", 
+            "rstanarm", "sessioninfo", "tableone", "tidymodels", "tidyverse", 
             "visdat" )
                 
     install.packages(pkgs)
