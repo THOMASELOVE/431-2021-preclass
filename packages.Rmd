@@ -12,9 +12,9 @@ These package instructions should be used after you've followed [these instructi
             "fivethirtyeight", "gapminder", "ggrepel", "gt", "here", 
             "Hmisc", "janitor", "kableExtra", "knitr", "magrittr", 
             "markdown", "modelsummary", "mosaic", "naniar", "NHANES", 
-            "palmerpenguins", "patchwork", "psych", "rmarkdown", "rms", 
-            "rstanarm", "sessioninfo", "tableone", "tidymodels", "tidyverse", 
-            "visdat" )
+            "palmerpenguins", "patchwork", "psych", "rmarkdown", 
+            "rmdformats", rms", "rstanarm", "sessioninfo", "tableone", 
+            "tidymodels", "tidyverse", "visdat" )
                 
     install.packages(pkgs)
 
